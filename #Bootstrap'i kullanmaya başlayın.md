@@ -1,8 +1,8 @@
-#Bootstrap'i kullanmaya başlayın
+# Bootstrap'i kullanmaya başlayın
 
 Bootstrap, güçlü, özelliklerle dolu bir ön uç araç takımıdır. Prototipten üretime kadar her şeyi dakikalar içinde oluşturun.
 
-##Hızlı başlangıç
+## Hızlı başlangıç
 Bootstrap'in üretime hazır CSS ve JavaScript'ini herhangi bir derleme adımına gerek kalmadan CDN aracılığıyla dahil ederek başlayın. Bu Bootstrap CodePen demosu ile pratikte görün .
 
 
@@ -22,7 +22,7 @@ Bootstrap'in üretime hazır CSS ve JavaScript'ini herhangi bir derleme adımın
 </html>
 ```	
 
-2.**Bootstrap'a CSS ve JS ekleyin.** CSS için `<link>`etiketini `<head>` etiketinin içerisine ekleyin. Javascript taglerini `<script>` </body> (açılır listeleri, açılır pencereleri ve araç ipuçlarını konumlandırmak için Popper dahil) içerisinde kalacak şekilde ekleyin. Daha fazlasını öğrenmek için [CDN links](#cdn-links).
+2.** Bootstrap'a CSS ve JS ekleyin.** CSS için `<link>`etiketini `<head>` etiketinin içerisine ekleyin. Javascript taglerini `<script>` </body> (açılır listeleri, açılır pencereleri ve araç ipuçlarını konumlandırmak için Popper dahil) içerisinde kalacak şekilde ekleyin. Daha fazlasını öğrenmek için [CDN links](#cdn-links).
 
 
 ```
@@ -51,9 +51,9 @@ Popper ve JS'mizi ayrı ayrı da dahil edebilirsiniz . Açılır listeleri, aç�
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 ```	
 
-1. **Merhaba Dünya!** Bootstrapped sayfanızı görmek için tercih ettiğiniz tarayıcıda sayfayı açın. Artık kendi düzeninizi [(layout)](#https://getbootstrap.com/docs/5.2/layout/grid/) oluşturarak, düzinelerce bileşen  [(components)](#https://getbootstrap.com/docs/5.2/components/buttons/) ekleyerek ve [(resmi örneklerimizi)](#https://getbootstrap.com/docs/5.2/examples/) kullanarak Bootstrap ile oluşturmaya başlayabilirsiniz .
+1. ** Merhaba Dünya!** Bootstrapped sayfanızı görmek için tercih ettiğiniz tarayıcıda sayfayı açın. Artık kendi düzeninizi [(layout)](#https://getbootstrap.com/docs/5.2/layout/grid/) oluşturarak, düzinelerce bileşen  [(components)](#https://getbootstrap.com/docs/5.2/components/buttons/) ekleyerek ve [(resmi örneklerimizi)](#https://getbootstrap.com/docs/5.2/examples/) kullanarak Bootstrap ile oluşturmaya başlayabilirsiniz .
 
-##CDN bağlantıları
+## CDN bağlantıları
 Referans olarak, işte birincil CDN bağlantılarımız.
 
 Tanım   |   URL
@@ -67,7 +67,7 @@ JS      |   https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundl
 
 İçindekiler sayfasında listelenen ek yapılarımızdan herhangi birini almak için [CDN'yi de kullanabilirsiniz](#https://getbootstrap.com/docs/5.2/getting-started/contents/).
 
-##Sonraki adımlar
+## Sonraki adımlar
 
 * Bootstrap'ın kullandığı bazı [önemli Global ortam ayarları](#https://getbootstrap.com/docs/5.2/getting-started/introduction/#important-globals) hakkında biraz daha bilgi edinin 
 .
@@ -98,7 +98,7 @@ JavaScript gerektiren bileşenleri
 ## Önemli Globaller
 Bootstrap'ın, tümü neredeyse yalnızca çapraz tarayıcı stillerinin *normalleştirilmesine* yönelik bir dizi önemli küresel stil ve ayar kullanır. Hadi dalalım.
 
-###HTML5 Döküman Türü
+### HTML5 Döküman Türü
 Bootstrap, HTML5 doc tipinin kullanılmasını gerektirir. Onsuz, biraz korkak ve eksik bir stil göreceksiniz.
 
 ```html
@@ -109,7 +109,7 @@ Bootstrap, HTML5 doc tipinin kullanılmasını gerektirir. Onsuz, biraz korkak v
 ```
 
 
-###Duyarlı (Responsive Meta Tag) Meta Etiketi
+### Duyarlı (Responsive Meta Tag) Meta Etiketi
 Bootstrap, önce mobil cihazlar için kodu optimize ettiğimiz ve ardından CSS medya sorgularını kullanarak bileşenleri gerektiği gibi büyüttüğümüz bir strateji olan öncelikli olarak mobil için geliştirilmiştir. Tüm cihazlar için düzgün oluşturma ve dokunarak yakınlaştırma sağlamak için, duyarlı görünüm meta etiketini `<head>` etikekinize ekleyin.
 
 ```
@@ -118,7 +118,7 @@ Bootstrap, önce mobil cihazlar için kodu optimize ettiğimiz ve ardından CSS 
 
 [Hızlı başlangıçta](https://getbootstrap.com/docs/5.2/getting-started/introduction/#quick-start) bunun bir örneğini görebilirsiniz .
 
-###Kutu- Boyutlandırma - (Box Sizing)
+### Kutu- Boyutlandırma - (Box Sizing)
 CSS'de daha basit boyutlandırma için global **box-sizing** (kutu boyutu) değerini,  **content-box**(içerik kutusu ) yerine **border-box** (kenar kutusu) olarak değiştiriyoruz . Bu **padding**, bir öğenin son hesaplanan genişliğindem etkilememesini sağlar, ancak Google Haritalar ve Google Özel Arama Motoru gibi bazı üçüncü taraf yazılımlarda sorunlara neden olabilir.
 
 Nadiren geçersiz kılmanız gerektiğinde, aşağıdakine benzer bir şey kullanın:
@@ -133,11 +133,11 @@ Yukarıdaki snippet ile, **::before ve ::after** aracılığıyla oluşturulan i
 
 CSS Püf Noktalarında [kutu modeli ve boyutlandırma](https://css-tricks.com/box-sizing/) hakkında daha fazla bilgi edinin .
 
-###Yeniden başlat - (Reboot)
+### Yeniden başlat - (Reboot)
 
 Gelişmiş tarayıcılar arası oluşturma için, tarayıcılar ve cihazlar arasındaki tutarsızlıkları düzeltmek için [Yeniden Başlatma](https://getbootstrap.com/docs/5.2/content/reboot/)'yı kullanırken, ortak HTML öğelerine biraz daha kararlı sıfırlamalar sağlarız.
 
-##Topluluk
+## Topluluk
 Bootstrap geliştirme konusunda güncel kalın ve bu faydalı kaynaklarla topluluğa ulaşın.
 
 * Resmi Önyükleme Blogunu [okuyun ve abone olun](https://blog.getbootstrap.com/) .
@@ -152,10 +152,10 @@ Bootstrap geliştirme konusunda güncel kalın ve bu faydalı kaynaklarla toplul
 
 En son dedikodular ve harika müzik videoları için [Twitter'da @getbootstrap](https://twitter.com/getbootstrap)'ı da takip edebilirsiniz .
 
-#Download
+# Download
 Derlenmiş CSS ve JavaScript'i, kaynak kodunu almak için Bootstrap'i indirin veya npm, RubyGems ve daha fazlası gibi favori paket yöneticilerinize dahil edin.
 
-##Derlenmiş CSS ve JS (Compiled CSS and JS)
+## Derlenmiş CSS ve JS (Compiled CSS and JS)
 Projenize kolayca dahil etmek için  Bootstrap v5.2.0 için kullanıma hazır derlenmiş kodu indirin :
 * Derlenmiş ve küçültülmüş CSS paketleri (bkz. [CSS dosyaları karşılaştırması](https://getbootstrap.com/docs/5.2/getting-started/contents/#css-files) )
 * Derlenmiş ve küçültülmüş JavaScript eklentileri (bkz. [JS dosyaları karşılaştırması](https://getbootstrap.com/docs/5.2/getting-started/contents/#js-files) )
@@ -164,7 +164,7 @@ Bu, belgeleri, kaynak dosyaları veya Popper gibi isteğe bağlı JavaScript ba�
 
 [***Download***](https://github.com/twbs/bootstrap/releases/download/v5.2.0/bootstrap-5.2.0-dist.zip)
 
-##Kaynak dosyaları (Source files)
+## Kaynak dosyaları (Source files)
 
 Kaynak Sass, JavaScript ve belge dosyalarımızı indirerek Bootstrap'i kendi varlık ardışık düzeninizle derleyin. Bu seçenek bazı ek araçlar gerektirir:
 
@@ -176,13 +176,13 @@ Kaynak Sass, JavaScript ve belge dosyalarımızı indirerek Bootstrap'i kendi va
 
 [***Download***](https://github.com/twbs/bootstrap/archive/v5.2.0.zip)
 
-##Örnekler
+## Örnekler
 
 Örneklerimizi indirip incelemek isterseniz, hali hazırda oluşturulmuş [örneklere](https://getbootstrap.com/docs/5.2/examples/) göz atabilirsiniz:
 
 [***Örnekleri İndir***](https://github.com/twbs/bootstrap/releases/download/v5.2.0/bootstrap-5.2.0-examples.zip)
 
-##jsDelivr aracılığıyla CDN
+## jsDelivr aracılığıyla CDN
 Bootstrap'in derlenmiş CSS ve JS'sinin önbelleğe alınmış sürümünü projenize sunmak için [jsDelivr](https://www.jsdelivr.com/) ile indirme işlemini atlayın .
 
 ```
@@ -201,11 +201,11 @@ Derlenmiş JavaScript'imizi kullanıyorsanız ve Popper'ı ayrı olarak dahil et
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 ```
 
-##Paket yöneticileri
+## Paket yöneticileri
 
 En popüler paket yöneticilerinden bazılarıyla Bootstrap'in kaynak dosyalarını hemen hemen her projeye ekleyin. Paket yöneticisi ne olursa olsun, Bootstrap, resmi derlenmiş sürümlerimizle eşleşen bir kurulum için bir [Sass derleyicisi](https://getbootstrap.com/docs/5.2/getting-started/contribute/#sass) ve Otomatik Ön Düzeltici [(Autoprefixer)](https://github.com/postcss/autoprefixer) gerektirir .
 
-###npm
+### npm
 
 Bootstrap'i Node.js destekli uygulamalarınıza [npm paketiyle](https://www.npmjs.com/package/bootstrap) yükleyin :
 
@@ -225,7 +225,7 @@ Bootstrap's ``package.json``, aşağıdaki anahtarların altında bazı ek meta 
 >Başlangıç ​​projemizle npm üzerinden Bootstrap ile başlayın! Bootstrap'i kendi npm projenizde nasıl oluşturacağınızı ve özelleştireceğinizi görmek için [twbs/bootstrap-npm-starter](https://github.com/twbs/bootstrap-npm-starter) şablon deposuna gidin. Sass derleyicisi, Autoprefixer, Stylelint, PurgeCSS ve Bootstrap Simgelerini içerir.
 
 
-###Yarn
+### Yarn
 Node.js destekli uygulamalarınıza [yarn](https://yarnpkg.com/en/package/bootstrap) paketiyle Bootstrap yükleyin :
 
 ```sh
@@ -233,7 +233,7 @@ $ yarn add bootstrap@5.2.0
 ```
 
 
-###RubyGems
+### RubyGems
 [Bundler](https://bundler.io/) ( önerilir ) ve [RubyGems](https://rubygems.org/) kullanarak Ruby uygulamalarınıza Bootstrap'i aşağıdaki satırı ekleyerek yükleyin [Gemfile:](https://bundler.io/gemfile.html)
 
 ```sh
@@ -255,7 +255,7 @@ Ayrıca [Composer](https://getcomposer.org/) kullanarak Bootstrap's Sass ve Java
 $ composer require twbs/bootstrap:5.2.0
 ```
 
-###NuGet
+### NuGet
 .NET Framework'te geliştirme yapıyorsanız, [NuGet](https://www.nuget.org/) kullanarak Bootstrap'in CSS'sini veya Sass ve JavaScript'i de yükleyebilir ve yönetebilirsiniz . NuGet, ön uç varlıkları için değil, derlenmiş kod için tasarlandığından, daha yeni projeler [libman](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/) veya başka bir yöntem kullanmalıdır.
 
 
@@ -270,12 +270,12 @@ Install-Package bootstrap.sass
 
 
 
-#İçerik (Contents)
+# İçerik (Contents)
 Önceden derlenmiş ve kaynak kodu çeşitlerimiz de dahil olmak üzere Bootstrap'a neler dahil olduğunu keşfedin.
 
-##Önceden Derlenmiş Önyükleme (Precompiled Bootstrap ):
+## Önceden Derlenmiş Önyükleme (Precompiled Bootstrap ):
 İndirdikten sonra sıkıştırılmış klasörü açın ve şöyle bir şey göreceksiniz:
-
+```
 bootstrap/
 ├── css/
 │   ├── bootstrap-grid.css
@@ -324,11 +324,11 @@ bootstrap/
     ├── bootstrap.min.js
     └── bootstrap.min.js.map
 
-
+```
 Bu, Bootstrap'in en temel biçimidir: hemen hemen her web projesinde hızlı açılan kullanım için önceden derlenmiş dosyalar. Derlenmiş CSS ve JS'nin ( bootstrap.*) yanı sıra derlenmiş ve küçültülmüş CSS ve JS'yi ``( bootstrap.min.*)`` sağlıyoruz. [Kaynak haritalar(Source Map)](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) ``( bootstrap.*.map)`` belirli tarayıcıların geliştirici araçlarıyla kullanılabilir. Paketlenmiş JS dosyaları ( ``bootstrap.bundle.js`` ve küçültülmüş ``bootstrap.bundle.min.js``) Popper'ı içerir .
 
 
-##CSS dosyaları
+## CSS dosyaları
 
 Bootstrap, derlenmiş CSS'mizin bir kısmını veya tamamını dahil etmek için bir avuç seçenek içerir.
 | CSS files | Layout | Content | Components | Utilities |
@@ -339,7 +339,7 @@ Bootstrap, derlenmiş CSS'mizin bir kısmını veya tamamını dahil etmek için
 | `bootstrap-reboot.css`<br> `bootstrap-reboot.rtl.css`<br> `bootstrap-reboot.min.css`<br> `bootstrap-reboot.rtl.min.css` | — | [Only Reboot]((https://getbootstrap.com/docs/5.2/content/reboot/)) | — | — |
 
 
-##JS dosyaları
+## JS dosyaları
 Benzer şekilde, derlenmiş JavaScript'imizin bir kısmını veya tamamını dahil etme seçeneklerimiz var.
 
 | JS Files | Popper |
@@ -348,7 +348,7 @@ Benzer şekilde, derlenmiş JavaScript'imizin bir kısmını veya tamamını dah
 | `bootstrap.js`<br> `bootstrap.min.js`<br> | – |
 
 
-##Önyükleme kaynak kodu (Bootstrap source code)
+## Önyükleme kaynak kodu (Bootstrap source code)
 Bootstrap kaynak kodu indirmesi, kaynak Sass, JavaScript ve belgelerle birlikte önceden derlenmiş CSS ve JavaScript varlıklarını içerir. Daha spesifik olarak, aşağıdakileri ve daha fazlasını içerir:
 
 ```
@@ -368,11 +368,11 @@ bootstrap/
 ``scss/`` ve ``js/`` CSS ve JavaScript'imizin kaynak kodudur. ``dist/``Klasör, yukarıdaki önceden derlenmiş indirme bölümünde listelenen her şeyi içerir . ``site/docs/`` Klasörü, belgelerimizin ve kaynak kodunu,  ``examples/`` klasörü de Bootstrap'in kullanımını içerir. Bunun ötesinde, dahil edilen diğer herhangi bir dosya, paketler, lisans bilgileri ve geliştirme için destek sağlar.
 
 
-#Tarayıcılar ve Cihazlar
+# Tarayıcılar ve Cihazlar
 Her biri için bilinen tuhaflıklar ve hatalar dahil olmak üzere Bootstrap tarafından desteklenen modernden eskiye tüm tarayıcılar ve cihazlar hakkında bilgi edinin.
 
 
-##Desteklenen tarayıcılar
+## Desteklenen tarayıcılar
 Bootstrap , tüm büyük tarayıcıların ve platformların en son, kararlı sürümlerini destekler.
 
 Doğrudan veya platformun web görünümü API'si aracılığıyla WebKit, Blink veya Gecko'nun en son sürümünü kullanan alternatif tarayıcılar açıkça desteklenmez. Ancak, Bootstrap (çoğu durumda) bu tarayıcılarda da düzgün şekilde görüntülenmeli ve çalışmalıdır. Daha spesifik destek bilgileri aşağıda verilmiştir.
@@ -405,7 +405,7 @@ Genel olarak konuşursak, Bootstrap her büyük platformun varsayılan tarayıc�
 | **Android** | Supported | Supported | <span class="text-muted">&mdash;</span> | v6.0+ |
 | **Windows** | Supported | Supported | Supported | <span class="text-muted">&mdash;</span> |
 
-###Masaüstü tarayıcılar
+### Masaüstü tarayıcılar
 
 Benzer şekilde, çoğu masaüstü tarayıcısının en son sürümleri desteklenir.
 
@@ -418,46 +418,46 @@ Firefox için, en son normal kararlı sürüme ek olarak, Firefox'un en son [Gen
 
 Resmi olmayan bir şekilde, Bootstrap, resmi olarak desteklenmese de Linux için Chromium ve Chrome'da ve Linux için Firefox'ta yeterince iyi görünmeli ve davranmalıdır.
 
-###Internet Explorer
+### Internet Explorer
 
 Internet Explorer desteklenmiyor. **Internet Explorer desteğine ihtiyacınız varsa lütfen Bootstrap v4'ü kullanın.**
 
-##Mobil cihazlarda modlar ve açılır menüler 
+## Mobil cihazlarda modlar ve açılır menüler 
 (Modals and dropdowns on mobile)
 
-###Taşma ve kaydırma(Overflow and scrolling)
+### Taşma ve kaydırma(Overflow and scrolling)
 
 Öğe için destek overflow: hidden;, ``<body>``iOS ve Android'de oldukça sınırlıdır. Bu amaçla, bu cihazların tarayıcılarından herhangi birinde bir modalın üstünü veya altını geçtiğinizde ``<body>``içerik kaymaya başlar. Bkz. Chrome hatası #175502 (Chrome v40'ta düzeltildi) ve [WebKit hatası #153852](https://bugs.webkit.org/show_bug.cgi?id=153856) .
 
-###iOS metin alanları ve kaydırma
+### iOS metin alanları ve kaydırma
 
 iOS 9.2'den itibaren, bir kip açıkken, bir kaydırma hareketinin ilk dokunuşu bir metinsel ``<input>``veya a sınırı içindeyse, kipin kendisi yerine kipin altındaki içerik kaydırılacaktır ``<textarea>``. WebKit hatası #153856'ya ``<body>`` bakın .
 
-###Gezinme Çubuğu Açılır Listeleri
+### Gezinme Çubuğu Açılır Listeleri
 
 Öğe , .dropdown-backdropz-indekslemenin karmaşıklığı nedeniyle gezinmede iOS'ta kullanılmaz. Bu nedenle, gezinme çubuklarındaki açılır listeleri kapatmak için, doğrudan açılır öğeye ([veya iOS'ta bir tıklama olayını başlatacak herhangi bir başka öğeye](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event#Safari_Mobile) ) tıklamanız gerekir.
 
-###Tarayıcı yakınlaştırma
+### Tarayıcı yakınlaştırma
 
 Sayfa yakınlaştırma, kaçınılmaz olarak hem Bootstrap'ta hem de web'in geri kalanında bazı bileşenlerde görüntü oluşturma kusurları sunar. Soruna bağlı olarak, sorunu çözebiliriz (önce arama yapın ve gerekirse bir sorun açın). Ancak, genellikle geçici çözümlerden başka doğrudan bir çözümleri olmadığı için bunları görmezden gelme eğilimindeyiz.
 
-###Doğrulayıcılar
+### Doğrulayıcılar
 
 Bootstrap, eski ve sorunlu tarayıcılara mümkün olan en iyi deneyimi sağlamak için, tarayıcılardaki hataları gidermek için belirli tarayıcı sürümlerine özel CSS'yi hedeflemek için çeşitli yerlerde [CSS tarayıcı hack'lerini](http://browserhacks.com/) kullanır. Bu saldırılar anlaşılır bir şekilde CSS doğrulayıcılarının geçersiz olduklarından şikayet etmelerine neden olur. Birkaç yerde, henüz tam olarak standartlaştırılmamış son teknoloji CSS özelliklerini de kullanıyoruz, ancak bunlar yalnızca aşamalı geliştirme için kullanılıyor.
 Bu doğrulama uyarıları, CSS'mizin korsan olmayan kısmı tam olarak doğrulandığından ve hileli kısımlar, korsan olmayan kısmın düzgün çalışmasına müdahale etmediğinden pratikte önemli değildir, bu nedenle bu özel uyarıları kasten görmezden gelmemizin nedeni budur.
 HTML belgelerimiz de benzer şekilde, belirli bir Firefox hatası için bir geçici çözüm eklediğimiz için bazı önemsiz ve önemsiz HTML doğrulama uyarılarına sahiptir .
 
 
-#JavaScript
+# JavaScript
 İsteğe bağlı JavaScript eklentilerimizle Bootstrap'a hayat verin. Her bir eklenti, verilerimiz ve programatik API seçeneklerimiz ve daha fazlası hakkında bilgi edinin.
 
 
-##Bireysel veya derlenmiş
+## Bireysel veya derlenmiş
 
 Eklentiler tek tek dahil edilebilir (Bootstrap'in bireysel ``js/dist/*.js`` dosyasını kullanarak) veya tümü aynı anda ``bootstrap.js`` veya küçültülmüş olarak ``bootstrap.min.js``(her ikisini birden dahil etmeyin) dahil edilebilir.
 Bir paketleyici (Webpack, Parsel, Vite…) kullanıyorsanız, UMD'ye hazır ``/js/dist/*.js `` dosyaları kullanabilirsiniz .
 
-##JavaScript çerçeveleriyle kullanım
+## JavaScript çerçeveleriyle kullanım
 
 Bootstrap CSS herhangi bir çerçeve ile kullanılabilirken ,  DOM hakkında tam bilgi sahibi olduğunu varsayan **Bootstrap JavaScript, React, Vue ve Angular gibi JavaScript çerçeveleriyle tam uyumlu değildir** . Hem Bootstrap hem de çerçeve aynı DOM öğesini mutasyona uğratmaya çalışabilir ve bu da "açık" konumda takılı kalan açılır listeler gibi hatalara neden olabilir.
 
@@ -467,7 +467,7 @@ Bu tür çerçeveleri kullananlar için daha iyi bir alternatif , Bootstrap Java
 * Vue: [BootstrapVue](https://bootstrap-vue.org/) (şu anda yalnızca Vue 2 ve Bootstrap 4'ü destekler)
 * Açısal: [ng-önyükleme](https://ng-bootstrap.github.io/)
   
-##Bootstrap'i modül olarak kullanma
+## Bootstrap'i modül olarak kullanma
 
 >**Kendin dene!** Bootstrap'i ES modülü olarak kullanmak için kaynak kodunu ve çalışma demosunu [twbs/examples deposundan](https://github.com/twbs/examples/tree/main/sass-js-esm) indirin . Ayrıca örneği [StackBlitz'de de açabilirsiniz](https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html) .
 
@@ -494,7 +494,8 @@ Bunu olduğu gibi denerseniz, konsolda aşağıdakine benzer bir hata görürsü
 
 İsteğe bağlı modül adlarını çözmek ve yolları tamamlamak için  ``importmap`` kullanabilirsiniz. [Hedeflenen tarayıcılarınız](https://caniuse.com/?search=importmap) ``importmap`` desteklemiyorsa , [es-module-shims](https://github.com/guybedford/es-module-shims) projesini  kullanmanız gerekecektir . Bootstrap ve Popper için şu şekilde çalışır:
 
-```<!doctype html>
+```sh
+<!doctype html>
 <html lang="en">
  <head>
    <meta charset="utf-8">
@@ -525,22 +526,22 @@ Bunu olduğu gibi denerseniz, konsolda aşağıdakine benzer bir hata görürsü
 </html>
 ```
 
-##Bağımlılıklar
+## Bağımlılıklar
 Bazı eklentiler ve CSS bileşenleri diğer eklentilere bağlıdır. Eklentileri tek tek eklerseniz, bu bağımlılıkları belgelerde kontrol ettiğinizden emin olun.
 
 Açılır listelerimiz, açılır pencerelerimiz ve araç ipuçlarımız da [Popper](https://popper.js.org/)'a bağlıdır .
 
-##Veri Öznitelikleri
+## Veri Öznitelikleri
 Hemen hemen tüm Bootstrap eklentileri, veri öznitelikleri ile yalnızca HTML aracılığıyla etkinleştirilebilir ve yapılandırılabilir (tercih ettiğimiz JavaScript işlevselliğini kullanma yöntemimiz). **Tek bir öğe üzerinde yalnızca bir dizi veri özniteliği kullandığınızdan emin olun** (örneğin, aynı düğmeden bir  ipucu aracını ve modu tetikleyemezsiniz.)
 
 Seçenekler veri öznitelikleri veya JavaScript aracılığıyla iletilebildiğinden, ``data-bs-animation="{value}"`` örneğinde olduğu gibi ``data-bs-`` öğesine bir seçenek  adı ekleyebilirsiniz. Seçenekler veri öznitelikleri aracılığıyla aktarılırken seçenek adının durum tipini “ camelCase ”den “ kebab-case ” olarak değiştirdiğinizden emin olun. Örneğin, ``data-bs-customClass="beautifier"` yerine ```data-bs-custom-class="beautifier"``kullanın .
 
 Bootstrap 5.2.0'dan itibaren, tüm bileşenler , bir JSON dizesi olarak basit bileşen yapılandırmasını barındırabilen **deneysel** bir ayrılmış veri özniteliği ``data-bs-config`` destekler. Bir öğe ``data-bs-config='{"delay":0, "title":123}'`` ve ``data-bs-title="456"`` özniteliklere sahip olduğunda, nihai ``title`` değer ``456`` olacak ve ayrı veri öznitelikleri ``data-bs-config.`` üzerinde verilen değerleri geçersiz kılar.  Ek olarak, mevcut veri öznitelikleri, ``data-bs-delay='{"show":0,"hide":150}'`` gibi JSON değerlerini barındırabilir .
 
-##Seçiciler
+## Seçiciler
 Performans nedenleriyle DOM öğelerini sorgulamak için yerel querySelector ve ``.querySelectorAll`` yöntemlerini kullanıyoruz, bu nedenle [geçerli seçiciler](https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier) kullanmanız gerekir . Eğer ``collapse:Example`` gibi özel seçiciler kullanıyorsanız , bunlardan kaçındığınızdan emin olun
 
-##Olaylar
+## Olaylar
 Bootstrap, çoğu eklentinin benzersiz eylemleri için özel etkinlikler sağlar. Genellikle bunlar (belirli bir özneyi ya da zamana bağlayan bir çekim olmaksızın) fiilin temel biçimi (mastar) ve [geçmiş ortaç](https://tr.wiktionary.org/wiki/past_participle) biçiminde gelir - 
 burada mastar (örn. show) bir olayın başlangıcında tetiklenir ve geçmiş ortaç biçimi (örn. shown) bir eylemin tamamlanmasıyla tetiklenir.
 
@@ -556,7 +557,7 @@ myModal.addEventListener('show.bs.modal', event => {
 })
 ```	
 
-##Programatik API
+## Programatik API
 Tüm yapıcılar isteğe bağlı bir seçenekler nesnesini kabul eder veya hiçbir şey kabul etmez (bu, bir eklentiyi varsayılan davranışıyla başlatır):
 
 ```js
@@ -584,7 +585,7 @@ bootstrap.Popover.getOrCreateInstance(myPopoverEl, configObject)
 
 Bir örneğin başlatılmamış olması durumunda, ikinci argüman olarak isteğe bağlı bir yapılandırma nesnesini kabul edebilir ve kullanabilir.
 
-##Yapıcılarda CSS seçicileri
+## Yapıcılarda CSS seçicileri
 
 ``getInstance`` ve yöntemlerine ek olarak , tüm eklenti oluşturucuları ilk argüman olarak ``getOrCreateInstance`` bir DOM öğesini veya geçerli bir [CSS seçicisini](https://getbootstrap.com/docs/5.2/getting-started/javascript/#selectors) kabul edebilir. ``querySelector ``Eklentilerimiz yalnızca tek bir öğeyi desteklediğinden , bu yöntemle eklenti öğeleri bulunur .
 
@@ -595,7 +596,7 @@ const offcanvas = bootstrap.Offcanvas.getInstance('#myOffcanvas')
 const alert = bootstrap.Alert.getOrCreateInstance('#myAlert')
 ```
 
-##Asenkron fonksiyonlar ve geçişler
+## Asenkron fonksiyonlar ve geçişler
 
 Tüm programatik API yöntemleri zaman uyumsuzdur ve geçiş başlatıldığında, ancak bitmeden önce arayana geri döner . Geçiş tamamlandıktan sonra bir eylemi gerçekleştirmek için ilgili olayı dinleyebilirsiniz.
 
@@ -621,7 +622,7 @@ carousel.to('1') // Will start sliding to the slide 1 and returns to the caller
 carousel.to('2') // !! Will be ignored, as the transition to the slide 1 is not finished !!
 ```	
 
-##Dispose yöntemi
+## Dispose yöntemi
 
 dispose Yöntemi hemen sonrasında kullanmak doğru gibi görünse hide()de yanlış sonuçlara yol açacaktır. İşte problem kullanımına bir örnek:
 
@@ -636,7 +637,7 @@ myModal.addEventListener('shown.bs.hidden', event => {
 
 	
 
-##Varsayılan ayarları
+## Varsayılan ayarları
 Eklentinin ``Constructor.Default`` nesnesini değiştirerek bir eklentinin varsayılan ayarlarını değiştirebilirsiniz:
 
 ```js
@@ -645,7 +646,7 @@ bootstrap.Modal.Default.keyboard = false
 ```
 
 
-##Yöntemler ve özellikler
+## Yöntemler ve özellikler
 Her Bootstrap eklentisi, aşağıdaki yöntemleri ve statik özellikleri ortaya çıkarır.
 
 | Yöntem | Tanım |
@@ -734,7 +735,7 @@ const tooltip = new bootstrap.Tooltip(yourTooltipEl, {
 
 İsteğe bağlı olarak jQuery kullanarak
 
-**Bootstrap 5'te jQuery'ye ihtiyacınız yok **, ancak bileşenlerimizi jQuery ile kullanmak hala mümkün. Bootstrap nesnede algılarsa jQuery, window tüm bileşenlerimizi jQuery'nin eklenti sistemine ekler. Bu, aşağıdakileri yapmanızı sağlar:
+** Bootstrap 5'te jQuery'ye ihtiyacınız yok **, ancak bileşenlerimizi jQuery ile kullanmak hala mümkün. Bootstrap nesnede algılarsa jQuery, window tüm bileşenlerimizi jQuery'nin eklenti sistemine ekler. Bu, aşağıdakileri yapmanızı sağlar:
 
 ```js
 $('[data-bs-toggle="tooltip"]').tooltip() // to enable tooltips, with default configuration
@@ -757,7 +758,7 @@ $.fn.bootstrapBtn = bootstrapButton // give $().bootstrapBtn the Bootstrap funct
 
 Bootstrap, Prototype veya jQuery UI gibi üçüncü taraf JavaScript kitaplıklarını resmi olarak desteklemez. Ad alanlı olaylara rağmen .noConflict, kendi başınıza düzeltmeniz gereken uyumluluk sorunları olabilir.
 
-###jQuery olayları
+### jQuery olayları
 Bootstrap, ``window`` nesnesinde ``jQuery`` varsa ve ``<body>`` üzerinde ayarlanmış ``data-bs-no-jquery`` özniteliği yoksa ``jQuery``'yi algılar. jQuery bulunursa, Bootstrap, jQuery'nin olay sistemi sayesinde olayları yayacaktır. Yani Bootstrap olaylarını görmek istiyorsanız,``addEventListener`` yerine jQuery yöntemlerini ( ``.on, .one``) kullanmak zorunda kalacaksınız 
 
 ```js
@@ -767,11 +768,11 @@ $('#myTab a').on('shown.bs.tab', () => {
 ```
 
 
-##Devre Dışı JavaScript
+## Devre Dışı JavaScript
 
 JavaScript devre dışı bırakıldığında Bootstrap eklentilerinin özel bir geri dönüşü yoktur. Bu durumda kullanıcı deneyimini önemsiyorsanız ``<noscript>``, durumu (ve JavaScript'in nasıl yeniden etkinleştirileceğini) kullanıcılarınıza açıklamak ve/veya kendi özel yedeklerinizi eklemek için kullanın.
 
-##Bootstrap ve Web Paketi
+## Bootstrap ve Web Paketi
 
 Webpack kullanarak Bootstrap'in CSS ve JavaScript'ini projenize nasıl dahil edeceğinize ve paketleyeceğinize dair resmi kılavuz.
 
@@ -832,7 +833,7 @@ my-project/
 
 Bu noktada, her şey doğru yerde, ancak Webpack çalışmayacak çünkü henüz ``webpack.config.js.``'yi doldurmadık. 
 
-##Web Paketini Yapılandır
+## Web Paketini Yapılandır
 Bağımlılıklar yüklendiğinde ve proje klasörümüz kodlamaya başlamamız için hazır olduğunda, artık Webpack'i yapılandırabilir ve projemizi yerel olarak çalıştırabiliriz.
 
 1. Editörünüzde **webpack.config.js** açın. Boş olduğu için, sunucumuzu başlatabilmemiz için ona bazı ortak kalıp yapılandırması eklememiz gerekecek. Yapılandırmanın bu kısmı, Webpack'e projemizin JavaScript'ini, derlenmiş kodun nereye ( dist) çıktısını alacağını ve geliştirme sunucusunun nasıl davranması gerektiğini ( dist hot reload ile klasörden çekerek) aramasını söyler.
@@ -1034,7 +1035,7 @@ touch src/index.html src/js/main.js src/scss/styles.scss
 ```	
 
 İşiniz bittiğinde, projenizin tamamı şöyle görünmelidir:
-
+```
 ``my-project``
 my-project/
 ├── src/
@@ -1046,7 +1047,7 @@ my-project/
 ├── package-lock.json
 └── package.json
 ``my-project``	
-
+```
 Bu noktada her şey doğru yerde ancak Parcel sunucumuzu başlatmak için bir HTML sayfasına ve npm betiğine ihtiyaç duyuyor.
 
 ## Parsel Yapılandır
